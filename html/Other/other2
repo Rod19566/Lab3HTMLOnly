@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+  </head>
+  <body>
+    <main>
+        <div>
+            <h1>Tell the media</h1>
+            <p>
+                The local news caught wind of Petra's unusual talent, and soon she found herself in the spotlight, the center of attention in a town buzzing with excitement.
+                As Petra's story spread, she became a magnet for those seeking guidance or hoping to change their destinies. 
+                The branching storylines emerged as different characters with diverse backgrounds approached Petra for help. There was the struggling artist seeking inspiration, the ambitious entrepreneur aiming for success, 
+                and even a detective hoping to solve a perplexing case.
+          
+            </p>
+            <ul>
+                <li><a href="no2.html">Keep it a secret</a></li>
+                <li><a href="yes2.html">Tell close friends</a></li>
+                <li><a href="other2.html">Tell the media</a></li>
+            </ul>
+        </div> 
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
