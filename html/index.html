@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 3</title>
-  </head>
-  <body>
+    <style>
+        body {
+            background-image: url('Images/HomeBkg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin: 0.5em 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
     <main>
-        <div>
+        <article>
             <h1>Story</h1>
             <p>
                 Write a short text story using only HTML. At the end of each page (let it not be a "finale") options should be displayed.
             </p>
             <p>
-                Petra was an educated girl. She liked everything except one thing, apples. However one day as Petra walked to school she was 
+                Petra was an educated girl. She liked everything except one thing, apples. However, one day as Petra walked to school, she was 
                 offered some free fruit samples passing the local market. The enticing aroma of ripe fruits wafted through the air, drawing her closer to the colorful market stalls.
                 Curiosity getting the better of her, Petra decided to give it a try. She hesitated for a moment before grabbing a small bunch of grapes. 
                 The burst of sweetness exploded in her mouth, and she couldn't help but smile. The vendor, a cheerful elderly woman, observed Petra with twinkling eyes.
                 "Would you like to try something else, dear?" the woman offered, holding out a shiny red apple. Petra felt a strange 
-                compulsion to accept the offer. 
+                compulsion to accept the offer.
             </p>
             <ul>
-                <li><a href="Yes\EatTheApple.html">Eat the apple</a></li>
-                <li><a href="No\RefuseTheApple.html">Refuse the apple</a></li>
+                <li><a href="Yes/EatTheApple.html">Eat the apple</a></li>
+                <li><a href="No/RefuseTheApple.html">Refuse the apple</a></li>
             </ul>
-        </div> 
+        </article>
     </main>
-	<script src="index.js"></script>
-  </body>
+</body>
 </html>
